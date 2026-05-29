@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Divya.dev</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TOP NAVBAR (Consistency ke liye same design) -->
+    <nav class="navbar">
+        <div class="logo">Divya.dev</div>
+        <div class="nav-auth">
+            <!-- Sign-in page par hain, toh button user ko Login par le jayega -->
+            <a href="login.html" class="btn-login" style="text-decoration: none; display: inline-block;">Login</a>
+        </div>
+    </nav>
+
+    <!-- SIGN-IN / SIGN-UP CARD BOX -->
+    <div class="card">
+        <h2 class="form-title">Create Account</h2>
+        
+        <!-- Input Group 1: Full Name (Naya Add Hua Hai) -->
+        <div class="input-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-input" placeholder="Enter your full name">
+        </div>
+
+        <!-- Input Group 2: Email -->
+        <div class="input-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" class="form-input" placeholder="Enter your email">
+        </div>
+        
+        <!-- Input Group 3: Password -->
+        <div class="input-group">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-input" placeholder="Create a password">
+        </div>
+        
+        <!-- Sign Up Submit Button (Wahi aapka deep green color) -->
+        <button class="btn-submit">Sign Up</button>
+        
+        <!-- Bottom Link: Agar account pehle se hai toh Login par bhejo -->
+        <p class="form-footer">Already have an account? <a href="login.html">Log In</a></p>
+    </div>
+
+</body>
+</html>
